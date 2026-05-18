@@ -1,0 +1,498 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Guia Diário - Reconstrução Pessoal</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body{
+      background:#0f1115;
+      color:white;
+      padding:30px;
+    }
+
+    .container{
+      max-width:1100px;
+      margin:auto;
+    }
+
+    .titulo{
+      text-align:center;
+      margin-bottom:40px;
+    }
+
+    .titulo h1{
+      font-size:40px;
+      margin-bottom:10px;
+      color:#4ea1ff;
+    }
+
+    .titulo p{
+      color:#b8b8b8;
+      font-size:18px;
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
+      gap:20px;
+    }
+
+    .bloco{
+      background:#1b1f27;
+      border-radius:20px;
+      padding:20px;
+      border:1px solid #2f3744;
+      transition:0.3s;
+    }
+
+    .bloco:hover{
+      transform:translateY(-5px);
+      border-color:#4ea1ff;
+    }
+
+    .hora{
+      color:#4ea1ff;
+      font-size:24px;
+      font-weight:bold;
+      margin-bottom:10px;
+    }
+
+    .atividade{
+      font-size:22px;
+      margin-bottom:15px;
+    }
+
+    .descricao{
+      color:#c9c9c9;
+      line-height:1.6;
+    }
+
+    .descricao ul{
+      margin-top:10px;
+      margin-left:20px;
+    }
+
+    .descricao li{
+      margin-bottom:8px;
+    }
+
+    .regras{
+      margin-top:50px;
+    }
+
+    .regras h2{
+      margin-bottom:20px;
+      color:#ff6464;
+      font-size:32px;
+    }
+
+    .regra{
+      background:#1b1f27;
+      border-left:5px solid #ff6464;
+      padding:20px;
+      margin-bottom:20px;
+      border-radius:10px;
+    }
+
+    .regra h3{
+      margin-bottom:10px;
+    }
+
+    footer{
+      text-align:center;
+      margin-top:60px;
+      color:#8b8b8b;
+      padding-bottom:30px;
+    }
+    input{
+     width:20px;
+     height:20px;
+    }
+   
+    input:checked{
+     
+   }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="titulo">
+      <h1>Construa Foco</h1>
+      <p>Reconstrução Mental, Física e Intelectual</p>
+    </div>
+
+    <div class="grid">
+
+      <div class="bloco">
+        <div class="hora">07:00</div>
+        <div class="atividade">Acordar</div>
+
+        <div class="descricao">
+          <p>Comece o dia sem celular.</p>
+        <div class="Tarefas">
+          <ul>
+            <li><input type="checkbox">
+              Beber água</li>
+            <li><input type="checkbox">
+              Arrumar a cama</li>
+            <li><input type="checkbox">
+              Lavar o rosto</li>
+            <li><input type="checkbox">
+              Abrir a janela</li>
+            <li><input type="checkbox">
+              Sem redes sociais</li>
+          </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="bloco">
+        <div class="hora">07:30</div>
+        <div class="atividade">Movimento e Sol</div>
+
+        <div class="descricao">
+          <ul>
+            <li><input type="checkbox">
+              Caminhada</li>
+            <li><input type="checkbox">
+              Bicicleta</li>
+            <li><input type="checkbox">
+              Alongamento</li>
+            <li><input type="checkbox">
+              Respiração</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="bloco">
+        <div class="hora">08:15</div>
+        <div class="atividade">Café da Manhã</div>
+
+        <div class="descricao">
+          <ul>
+            <li><input type="checkbox">
+              Coma sem telas</li>
+            <li><input type="checkbox">
+              Faça o Duolingo diario</li>
+            <li><input type="checkbox">
+              Faça 10 flexões</li>
+            <li><input type="checkbox">
+              Evite doce</li>
+            <li><input type="checkbox">
+              Evite muita cafeina</li>
+          </ul>
+
+          <p>Evite doces e exageros.</p>
+        </div>
+      </div>
+
+      <div class="bloco">
+        <div class="hora">09:00</div>
+        <div class="atividade">Português Avançado</div>
+
+        <div class="descricao">
+          <ul>
+            <li><input type="checkbox">
+              Gramática</li>
+            <li><input type="checkbox">
+              Pontuação</li>
+            <li><input type="checkbox">
+              Classes gramaticais</li>
+            <li><input type="checkbox">
+              Interpretação</li>
+            <li><input type="checkbox">
+              Estrutura textual</li>
+            <li><input type="checkbox">
+              Redação</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="bloco">
+        <div class="hora">11:00</div>
+        <div class="atividade">Pausa Sem Tela</div>
+
+        <div class="descricao">
+          <p>
+            Nada de Shorts, Reels ou TikTok.
+          </p>
+
+          <ul>
+            <li><input type="checkbox">
+              Água</li>
+            <li><input type="checkbox">
+              Silêncio</li>
+            <li><input type="checkbox">
+              Organização</li>
+            <li><input type="checkbox">
+              Respiração</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="bloco">
+        <div class="hora">11:30</div>
+        <div class="atividade">Estudo Profissional</div>
+
+        <div class="descricao">
+          <ul>
+            <li><input type="checkbox">
+              Programação</li>
+            <li><input type="checkbox">
+              Excel</li>
+            <li><input type="checkbox">
+              Currículo</li>
+            <li><input type="checkbox">
+              Entrevistas</li>
+            <li><input type="checkbox">
+              Inglês</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="bloco">
+        <div class="hora">13:00</div>
+        <div class="atividade">Almoço</div>
+
+        <div class="descricao">
+          <ul>
+            <li><input type="checkbox">
+              Arroz</li>
+            <li><input type="checkbox">
+              Feijão</li>
+            <li><input type="checkbox">
+              Proteína</li>
+            <li><input type="checkbox">
+              Legumes</li>
+          </ul>
+
+          <p>Comer devagar e sem vídeos.</p>
+        </div>
+      </div>
+
+      <div class="bloco">
+        <div class="hora">14:00</div>
+        <div class="atividade">Descanso Controlado</div>
+
+        <div class="descricao">
+          <p>
+            Relaxar sem dormir demais.
+          </p>
+
+          <ul>
+            <li><input type="checkbox">
+              Máximo 30 minutos</li>
+            <li><input type="checkbox">
+              Música calma</li>
+            <li><input type="checkbox">
+              Respiração</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="bloco">
+        <div class="hora">14:30</div>
+        <div class="atividade">Produção</div>
+
+        <div class="descricao">
+          <ul>
+            <li><input type="checkbox">
+              Programar</li>
+            <li><input type="checkbox">
+              Escrever</li>
+            <li><input type="checkbox">
+              Criar projetos</li>
+            <li><input type="checkbox">
+              Aprender algo novo</li>
+          </ul>
+
+          <p>
+            Regra: produzir mais do que consumir.
+          </p>
+        </div>
+      </div>
+
+      <div class="bloco">
+        <div class="hora">16:30</div>
+        <div class="atividade">Exercício Físico</div>
+
+        <div class="descricao">
+          <ul>
+            <li><input type="checkbox">
+              Academia</li>
+            <li><input type="checkbox">
+              Treino em casa</li>
+            <li><input type="checkbox">
+              Bike</li>
+            <li><input type="checkbox">
+              Caminhada forte</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="bloco">
+        <div class="hora">17:30</div>
+        <div class="atividade">Banho e Organização</div>
+
+        <div class="descricao">
+          <ul>
+            <li><input type="checkbox">
+              Organizar quarto</li>
+            <li><input type="checkbox">
+              Limpar mesa</li>
+            <li><input type="checkbox">
+              Separar roupas</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="bloco">
+        <div class="hora">18:00</div>
+        <div class="atividade">Jantar</div>
+
+        <div class="descricao">
+          <p>
+            Refeição mais leve.
+          </p>
+
+          <ul>
+            <li><input type="checkbox">
+              Evitar exageros</li>
+            <li><input type="checkbox">
+              Evitar açúcar</li>
+            <li><input type="checkbox">
+              Evitar ultraprocessados</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="bloco">
+        <div class="hora">19:00</div>
+        <div class="atividade">Leitura e Cultura</div>
+
+        <div class="descricao">
+          <ul>
+            <li><input type="checkbox">
+              Livros</li>
+            <li><input type="checkbox">
+              Leitura em voz alta</li>
+            <li><input type="checkbox">
+              Português</li>
+            <li><input type="checkbox">
+              Escrita</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="bloco">
+        <div class="hora">20:30</div>
+        <div class="atividade">Lazer Controlado</div>
+
+        <div class="descricao">
+          <ul>
+            <li><input type="checkbox">
+              Filmes</li>
+            <li><input type="checkbox">
+              Séries</li>
+            <li><input type="checkbox">
+              Jogos</li>
+          </ul>
+
+          <p>
+            Máximo 1h30.
+          </p>
+        </div>
+      </div>
+
+      <div class="bloco">
+        <div class="hora">22:00</div>
+        <div class="atividade">Desacelerar</div>
+
+        <div class="descricao">
+          <ul>
+            <li><input type="checkbox">
+              Luz baixa</li>
+            <li><input type="checkbox">
+              Música calma</li>
+            <li><input type="checkbox">
+              Sem pornografia</li>
+            <li><input type="checkbox">
+              Sem vídeos rápidos</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="bloco">
+        <div class="hora">23:00</div>
+        <div class="atividade">Dormir</div>
+
+        <div class="descricao">
+          <p>
+            Objetivo:
+          </p>
+
+          <ul>
+            <li><input type="checkbox">
+              7h30 a 8h de sono</li>
+            <li><input type="checkbox">
+              Mesmo horário todos os dias</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="regras">
+
+      <h2>REGRAS IMPORTANTES</h2>
+
+      <div class="regra">
+        <h3>Pornografia</h3>
+
+        <p>
+          Quando vier vontade:
+          levantar, sair do quarto, tomar água gelada,
+          caminhar ou fazer exercício.
+        </p>
+      </div>
+
+      <div class="regra">
+        <h3>Vídeos Curtos</h3>
+
+        <p>
+          Limite máximo de 30 minutos por dia.
+        </p>
+      </div>
+
+      <div class="regra">
+        <h3>Disciplina</h3>
+
+        <p>
+          Fazer mesmo sem vontade.
+        </p>
+      </div>
+
+    </div>
+
+    <footer>
+      Reconstrução diária • Disciplina • Clareza Mental
+    </footer>
+
+  </div>
+
+</body>
+</html>
+
+
