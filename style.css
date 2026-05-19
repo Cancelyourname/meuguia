@@ -25,6 +25,7 @@
       font-size:40px;
       margin-bottom:10px;
       color:black;
+      font-family:Times New Roman;
     }
 
     .titulo p{
@@ -153,7 +154,7 @@
   width: 100%;          
   height: 60px;        
   background: black;  
-  border-bottom: 2px solid white; 
+  border-bottom: 2px solid black; 
   z-index: 1000;      
   display: flex;
   align-items: center;
