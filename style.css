@@ -29,7 +29,7 @@
     }
 
     .titulo p{
-      color:white;
+      color:black;
       font-size:18px;
     }
 
@@ -43,18 +43,18 @@
       background:white;
       border-radius:20px;
       padding:20px;
-      border:2px solid black;
+      border:2px solid red;
       transition:0.2s;
     }
 
     .bloco:hover{
       transform:translateY(-5px);
-      border-color:white;
+      border-color:red;
     }
 
     .hora{
       color:black;
-      font-size:24px;
+      font-size:30px;
       font-weight:bold;
       margin-bottom:10px;
     }
@@ -65,7 +65,7 @@
     }
 
     .descricao{
-      color:black;
+      color:red;
       line-height:1.6;
     }
 
