@@ -147,7 +147,7 @@
     opacity: 0;
     transform: translateY(-15px) scale(0.85);
   } }
- .barratopo{
+ .barra-top{
   position: fixed;      
   top: 0;            
   left: 0;              
