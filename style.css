@@ -40,7 +40,7 @@
     }
 
     .bloco{
-      background:black;
+      background:white;
       border-radius:20px;
       padding:20px;
       border:2px solid black;
@@ -49,7 +49,7 @@
 
     .bloco:hover{
       transform:translateY(-5px);
-      border-color:red;
+      border-color:blue;
     }
 
     .hora{
@@ -103,7 +103,7 @@
     footer{
       text-align:center;
       margin-top:60px;
-      color:black;
+      color:white;
       padding-bottom:30px;
     }
     input{
