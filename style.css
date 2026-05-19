@@ -29,7 +29,7 @@
     }
 
     .titulo p{
-      color:black;
+      color:white;
       font-size:18px;
     }
 
@@ -65,7 +65,7 @@
     }
 
     .descricao{
-      color:red;
+      color:black;
       line-height:1.6;
     }
 
@@ -89,7 +89,7 @@
     }
 
     .regra{
-      background:black;
+      background:white;
       border-left:5px solid white;
       padding:20px;
       margin-bottom:20px;
