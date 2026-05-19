@@ -163,7 +163,7 @@
 .conteudo-topo{
       width: 100%;
       max-width: 1100px;
-      margin: auto;
+      margin: 0;
       padding: 0 30px;     
       font-weight: bold;
       font-size: 20px;
